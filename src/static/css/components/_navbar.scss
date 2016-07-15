@@ -1,0 +1,24 @@
+
+@import "../bootstrap/navbar";
+@import "../bootstrap/navs";
+
+
+
+.navbar {
+	border-width: 0px;
+	border-bottom-width: 1px;
+	.navbar-brand{
+		color: #217346 ;
+		&:hover{
+			color: #217346 ;
+		}
+	}
+}
+.navbar-brand{
+	padding-left: 15px ;
+	img{
+		display: inline-block ;
+		max-height: 20px ;
+		max-height: 20px ;
+	}
+}

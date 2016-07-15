@@ -1,0 +1,35 @@
+{
+  "name": "jsdo",
+  "version": "1.0.0",
+  "description": "Learn JSDO methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JSDO"
+  ],
+  "author": "Pavaman Abbur Dwarakanath",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "es6-promise": "^3.2.1",
+    "express": "^4.13.4",
+    "flux": "^2.1.1",
+    "object-assign": "^4.1.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-watch": "^4.3.6",
+    "key-mirror": "^1.0.1",
+    "object-assign": "^4.1.0",
+    "reactify": "^1.1.1"
+  }
+}
