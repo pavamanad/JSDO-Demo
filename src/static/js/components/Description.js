@@ -39,7 +39,7 @@ var Description = React.createClass({
 		return(			
 			<div className="description">
 				<h1 className="section-title">{this.state.data.mname}</h1>
-				<p>{this.state.data.description}</p>
+				<p className="description-text">{this.state.data.description}</p>
 				<iframe height='800' scrolling='no' src={""+this.state.data.iframe} frameborder='no' allowtransparency='true' allowfullscreen='true' style={{width: '100%'}}>
 				See the Pen 
 				</iframe>

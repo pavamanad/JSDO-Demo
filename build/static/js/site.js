@@ -35802,7 +35802,7 @@ var Description = React.createClass({displayName: "Description",
 		return(			
 			React.createElement("div", {className: "description"}, 
 				React.createElement("h1", {className: "section-title"}, this.state.data.mname), 
-				React.createElement("p", null, this.state.data.description), 
+				React.createElement("p", {className: "description-text"}, this.state.data.description), 
 				React.createElement("iframe", {height: "800", scrolling: "no", src: ""+this.state.data.iframe, frameborder: "no", allowtransparency: "true", allowfullscreen: "true", style: {width: '100%'}}, 
 				"See the Pen" 
 				)
@@ -35825,7 +35825,7 @@ var Navbar = React.createClass({displayName: "Navbar",
         React.createElement("div", {className: "container-fluid"}, 
           React.createElement("div", {className: "navbar-header"}, 
             React.createElement("a", {className: "navbar-brand", href: "#"}, 
-              React.createElement("img", {className: "logo-img", src: "/static/images/logo.png"}), " ", React.createElement("b", null, "<Progress/>")
+              React.createElement("img", {className: "logo-img", src: "/static/images/logo.png"})
             )
           )
         )

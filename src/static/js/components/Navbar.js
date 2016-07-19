@@ -9,7 +9,7 @@ var Navbar = React.createClass({
         <div className="container-fluid">                 
           <div className="navbar-header">
             <a className="navbar-brand" href="#">
-              <img className="logo-img" src="/static/images/logo.png" /> <b>&lt;Progress/&gt;</b>
+              <img className="logo-img" src="/static/images/logo.png" /> 
             </a>
           </div>
         </div>

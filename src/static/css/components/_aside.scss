@@ -28,10 +28,13 @@
     	}
     }
     .selected{
-    	background: $aside-selected-bg ;
-    	color: $aside-selected-color ;
+    	background: #fff;
+        color: $aside-selected-color;
+        border-left: 3px solid $aside-selected-color;
+        font-weight: bold;
     	&:hover{
-    		background: $aside-selected-bg ;
+    		background: #fff ;
     	}
+        
     }
 }
