@@ -15,9 +15,10 @@
     .level-2{
     	padding: 7px 10px 7px 30px ;
     	margin: 0 ;
+        cursor: pointer;
     }
     .level-1, .level-2{
-    	cursor: pointer;
+    	
     	display: block ;
     	.fa{
     		margin-right: 5px;

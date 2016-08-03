@@ -25,6 +25,8 @@ gulp.task('sass', function () {
 });
 
 gulp.task('static', function(){
+  gulp.src('./src/static/css/vendors/*.css')
+  .pipe(gulp.dest('./build/static/css'));
   gulp.src('./src/static/fonts/**')
   .pipe(gulp.dest('./build/static/fonts/'));
   gulp.src('./src/static/images/**')

@@ -4,31 +4,31 @@
 		"methods":[
 			{
 				"mname":"Fill",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"Initializes JSDO memory with record objects from the data records in a single-table resource, or in one or more tables of a multi-table resource, as returned by the Read operation of the Data Object resource for which the JSDO is created.",
 				"iframe":"//codepen.io/pavamanad/embed/BzWYEp/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			},
 			{
 				"mname":"Add",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"Creates a new record object for a table referenced in JSDO memory and returns a reference to the new record.",
 				"iframe":"//codepen.io/pavamanad/embed/WxdKyZ/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			},
 			{
 				"mname":"Assign",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"Updates field values for the specified JSRecord object in JSDO memory.",
 				"iframe":"//codepen.io/pavamanad/embed/KMWOwE/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			},
 			{
 				"mname":"Remove",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"Deletes the specified table record referenced in JSDO memory.",
 				"iframe":"//codepen.io/pavamanad/embed/wWdEox/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			},
 			{
 				"mname":"Invoke",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"Asynchronously calls a custom invocation method on the JSDO to execute an Invoke operation defined by a Data Object resource.",
 				"iframe":"//codepen.io/pavamanad/embed/RRkyJV/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			}
@@ -39,7 +39,7 @@
 		"methods":[
 			{
 				"mname":"Kendo Grid",
-				"description":"some awesome description text goes here, which is a bit long like this text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et libero mauris. Nulla ut nunc in odio posuere condimentum in eget arcu. Quisque porttitor mattis ante, eu viverra erat molestie et. Nulla porttitor ullamcorper odio. Ut et elit condimentum ligula tempus eleifend",
+				"description":"The below sample shows the usage of KendoUI with JSDO, pretty intersting and cool",
 				"iframe":"//codepen.io/pavamanad/embed/zBPPAN/?height=800&theme-id=dark&default-tab=js,result&embed-version=2",
 				"link":"https://community.progress.com/"
 			}
