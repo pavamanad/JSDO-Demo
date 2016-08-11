@@ -8,6 +8,7 @@ var watch = require('gulp-watch');
 gulp.task('watch', function() {
   gulp.watch('./src/static/js/**/*.js', ['browserify']);
   gulp.watch('./src/static/css/**/*.scss', ['sass']);
+  gulp.watch('./src/static/data/**/*.json', ['static']);
 });
 
 gulp.task('browserify', function(){

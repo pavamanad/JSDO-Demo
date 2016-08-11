@@ -1,1 +1,35 @@
 @import "../bootstrap/navs";
+
+.editor{
+	@include clearfix;
+	border-bottom: 1px solid #e1e1e8;
+	.CodeMirror,.iframe-container{
+		height: 600px;
+	}
+	.tab-content{
+		border-right: 1px solid #e1e1e8;
+	}
+}
+.nav-tab{
+	@include clearfix;
+	list-style: none;
+	background: #f7f7f7;
+	padding: 0 5px;
+	margin: 0;
+	.tab{
+		float:left;
+		height: 35px;
+		padding: 5px 14px;
+		cursor: pointer;
+		margin-left: 5px;
+		&:hover{
+			background: #fff;
+		}
+		&.active{
+			background: #fff;
+			border-top: 3px solid #217346;
+			color: #217346;
+			font-weight: bold;
+		}
+	}
+}

@@ -31,8 +31,8 @@ var Description = React.createClass({
 		// 		<div className="description">
 		// 			<h1 className="section-title">{this.state.data.mname}</h1>
 		// 			<p>{this.state.data.description}</p>
-		// 			<iframe height='350' scrolling='no' src={""+this.state.data.iframe} frameborder='no' allowtransparency='true' allowfullscreen='true' style={{width: '100%'}}>
-		// 			See the Pen 
+		// 			<iframe height='800' scrolling='no' src={""+this.state.data.iframe} frameborder='no' allowtransparency='true' allowfullscreen='true' style={{width: '100%'}}>
+		//		See the Pen 
 		// 			</iframe>
 		// 		</div>
 		// 	);
@@ -44,11 +44,7 @@ var Description = React.createClass({
 			<div className="description">
 				<h1 className="section-title">{this.state.data.mname}</h1>
 				<p className="description-text">{this.state.data.description}</p>
-				<Codemirror value={this.state.code} options={{mode: 'javascript'}} />
 				<Editor />
-				<iframe height='800' scrolling='no' src={""+this.state.data.iframe} frameborder='no' allowtransparency='true' allowfullscreen='true' style={{width: '100%'}}>
-				See the Pen 
-				</iframe>
 			</div>
 		)
 	}
